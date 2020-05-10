@@ -1,0 +1,115 @@
+body 
+{
+    background-image: url(./images/background1.jpg);
+    background-attachment: fixed;
+}
+#card
+{
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    transform: rotate(2deg);
+    transform: rotate(2deg);
+    -ms-transform: rotate(2deg);		/* IE 9 */
+    -webkit-transform: rotate(2deg);	/* Safari and Chrome */
+    -o-transform: rotate(2deg);		/* Opera */
+    -moz-transform: rotate(2deg);		/* Firefox */
+}
+#attach
+{
+    position: absolute;
+    left: 540px;
+    top: 40px;
+    height: 253px;
+    width: 300px;
+}
+#txtimg
+{
+    position: absolute;
+    left: 590px;
+    top: 250px;
+    height: 400px;
+    width: 400px;
+}
+#txt
+{
+    position: absolute;
+    left: 740px;
+    top: 400px;
+    height: 400px;
+    width: 400px;
+    text-shadow: 5px 5px 5px #888888;
+    word-wrap:break-word;
+}
+#Carnation
+{
+    position: absolute;
+    left: 432px;
+    top: 25px;
+    height: 200px;
+    width: 200px;
+}
+#Bellflower
+{
+    position: absolute;
+    left: 790px;
+    top: 140px;
+    height: 200px;
+    width: 200px;
+}
+#Hemerocallis
+{
+    position: absolute;
+    left: 0px;
+    top: 410px;
+    height: 200px;
+    width: 200px;
+}
+#ei
+{
+width:150px;
+height:150px;
+background:yellow;
+transition:width 2s;
+-moz-transition:width 2s; /* Firefox 4 */
+-webkit-transition:width 2s; /* Safari and Chrome */
+-o-transition:width 2s; /* Opera */
+box-shadow: 10px 10px 5px #888888;
+border-radius:15px;
+-moz-border-radius:15px; /* Old Firefox */
+margin:20px;
+position: absolute;
+left: 20px;
+top: 620px;
+}
+#ei:hover
+{
+width:300px;
+}
+#hi
+{
+width:125px;
+height:125px;
+background:yellow;
+transition:width 2s, height 2s;
+-moz-transition:width 2s, height 2s, -moz-transform 2s; /* Firefox 4 */
+-webkit-transition:width 2s, height 2s, -webkit-transform 2s; /* Safari and Chrome */
+-o-transition:width 2s, height 2s, -o-transform 2s; /* Opera */
+box-shadow: 10px 10px 5px #888888;
+border-radius:15px;
+-moz-border-radius:15px; /* Old Firefox */
+float:right;
+margin:50px;
+position: absolute;
+position: absolute;
+left: 1000px;
+top: 745px;
+margin: 50px;
+}
+#hi:hover
+{
+transform:rotate(360deg);
+-moz-transform:rotate(360deg); /* Firefox 4 */
+-webkit-transform:rotate(360deg); /* Safari and Chrome */
+-o-transform:rotate(360deg); /* Opera */
+}
